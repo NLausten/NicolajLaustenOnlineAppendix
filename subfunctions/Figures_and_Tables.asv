@@ -1,0 +1,27 @@
+%%%%%%%%% CCDK FIGURES AND TABLES CODES %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%% Load all results .mat files %%%
+% save ALL_RESULTS Draws_IRFs_narrative Draws_IRFs_narrative_CTF Draws_FEVDs_narrative Draws_HDs_narrative
+load ALL_RESULTS
+% ALL_RESULTS contains Draws_IRFs_narrative Draws_IRFs_narrative_CTF Draws_FEVDs_narrative Draws_HDs_narrative
+ 
+
+%%% Figure 1: Baseline IRFs to Uf and EBP shocks %%%
+Plot_IRFs_Baseline;
+
+%%% Figure 2: IRFs of GDP to FU shock: Factual versus Counterfactuals %%%
+Plot_IRFs_GDP_to_FU_shock_fctl_ctf;
+
+%%% Table 1: Baseline FEVDs of all 7 variables to Uf and EBP shocks %%%
+FEVDs_Table_All_Variables_to_FU_and_EBP_Shocks_Baseline;
+
+%%% Figure 3: Baseline GDP HDs to Uf and EBP shocks during the Great Recession (2007M12 - 2009M06) %%%
+Plot_IRFs_Baseline;
+
+%%% Table 2: Estimates of the FUM (sum and peak) over a 2-year horizon %%%
+Plot_IRFs_Baseline;
+
+
+
